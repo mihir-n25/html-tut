@@ -1,0 +1,26 @@
+-> * in html is used for all
+
+-> the justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).types are-:
+flex-start,flex-end,center,space-between,space-around,space-evenly,initial,inherit
+
+-> display sdets the element's display type wheter it is flex,inline,block,list-item
+
+-> nav and all other container represents a section of page in which we have to apply the same property or it is a similar set of content. nav>>div 
+
+-> . use to access class
+
+-> a href="/" is used to convert cursor into hand notation
+
+-> a href is used to describe the url of that page that link goes to
+
+-> :hover selector is used to change that text on which mouse goes
+
+-> max width sets the maximum width of element/width caan be also used
+
+-> hr is used to draw horizontal ruler line/to break something
+
+-> margin is the space around the element and padding is the space between the elements
+
+-> media screen will give the result based on media queries i.e. changes when we increase or decrease the size of screen 
+
+-> convert html css into react by replacing class with className and apply closing tag where ever required  

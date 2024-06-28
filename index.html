@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihir's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(19, 6, 62);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(73, 73, 228);
+            width: 98.7vw;
+
+        }
+
+        .right ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 25px;
+        }
+
+        .btn {
+            background-color: rgb(31, 27, 27);
+            color: white;
+            padding: 6px;
+            cursor: pointer;
+            font: bold;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 63px 0px;
+            align-items: center;
+            /* width: 30%; */
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            display: inline;
+            font-size: 2.5rem;
+
+        }
+
+        .rightSection img {
+            width: 70%;
+        }
+
+        .purple {
+            color: aqua
+        }
+
+        #element {
+            color: aqua;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+            /* display:  flex; */
+        }
+
+        .text-gray {
+            color: grey;
+            font-size: 1rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(163, 163, 240);
+            height: 1px;
+            margin: 50px;
+        }
+
+        .secondSection .horizontal {
+            background-color: white;
+            width: 170vh;
+            height: 1.5px;
+            margin: 50px 0px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            height: 64px;
+            width: 1px;
+            margin: 0 6vw;
+        }
+
+        .image-top {
+            position: relative;
+            top: -33px;
+            left: -9px;
+            width: 20px;
+        }
+
+        .title {
+            font-size: 22px;
+            position: relative;
+            top: 28px;
+        }
+
+        .desc {
+            position: relative;
+            color: gray;
+            font-size: 9px;
+            width: 17vh;
+            margin: 8px 2px;
+            top: 27px;
+        }
+
+        footer {
+            background-color: rgb(126, 105, 231);
+            height: 185px;
+            width: 98.8vw;
+        }
+
+        .footer {
+            display: flex;
+            padding: 19px 85px;
+            justify-content: space-evenly;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        .footer-rights {
+            color: rgb(30, 30, 30);
+            text-align: center;
+            padding: 12px 0;
+
+        }
+        
+
+        /* practice this */
+        @media screen and (max-width: 1100px) {
+            .firstSection {
+                flex-direction: column;
+            }
+
+            .secondSection .horizontal {
+                flex-direction: column;
+            }
+
+            .secondSection .vertical {
+                height: unset;
+            }
+
+            .title {
+                left: 16px;
+            }
+
+            .desc {
+                left: 14px;
+            }
+
+            footer {
+                display: none;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            .leftSection {
+                width: 100% !important;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .rightSection{
+                width: 721px !important; 
+                display: flex;
+                justify-content: center;
+            }
+            /* .secondSection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center ;
+            } */
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mihir's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">SERVICES</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/">CONTACT ME</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Heyy there
+                    <span class="purple">Mihir</span> this side and am a passionate
+                
+                <!-- <div>web developer</div> -->
+                <span id="element"></span>
+            </div>
+            </div>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="rihim.PNG" alt="my image">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">what I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="horizontal">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png.png" alt="hehe">
+
+                    <div class="title"> Software Engineer
+                    </div>
+                    <div class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum
+                        natus aut voluptatem, facilis mollitia, rerum inventore qui ipsum dignissimos laborum
+                        velit commodi?
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com.png" alt="hehe">
+
+                    <div class="title"> HTML Developer
+                    </div>
+                    <div class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum
+                        natus aut voluptatem, facilis mollitia, rerum inventore qui ipsum dignissimos laborum
+                        velit commodi?
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="vn.jpeg" alt="hehe">
+
+                    <div class="title">Video Editor
+                    </div>
+                    <div class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum
+                        natus aut voluptatem, facilis mollitia, rerum inventore qui ipsum dignissimos laborum
+                        velit commodi?
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Youtube_logo.png" alt="hehe">
+
+                    <div class="title"> Youtuber
+                    </div>
+                    <div class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum
+                        natus aut voluptatem, facilis mollitia, rerum inventore qui ipsum dignissimos laborum
+                        velit commodi?
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="trader.webp" alt="hehe">
+
+                    <div class="title"> Trader
+                    </div>
+                    <div class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum
+                        natus aut voluptatem, facilis mollitia, rerum inventore qui ipsum dignissimos laborum
+                        velit commodi?
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Mihir's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact Me</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact Me</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact Me</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright&#169;mihirsportfolio.com | All Rights Are Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Trader', 'Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+    
+
+</body>
+
+</html>
